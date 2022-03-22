@@ -1,4 +1,4 @@
-# Supervised Machine Learning Homework - Predicting Credit Risk
+# Supervised Machine Learning - Predicting Credit Risk
 
 ## Preprocessing: Convert categorical data to numeric
 Create a training set from the 2019 loans using pd.get_dummies() to convert the categorical data to numeric columns. Similarly, create a testing set from the 2020 loans, also using pd.get_dummies(). Note! There are categories in the 2019 loans that do not exist in the testing set. If you fit a model to the training set and try to score it on the testing set as is, you will get an error. You need to use code to fill in the missing categories in the testing set.
